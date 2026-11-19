@@ -433,7 +433,7 @@ body.menu-open .nav {
 }
 .hero__bg img {
 	object-fit: cover;
-	object-position: 50% 40%;
+	object-position: 50% 62%;
 	filter: saturate(0.85) contrast(1.05);
 	transform: scale(1.06);
 	animation: heroZoom 18s var(--ease) forwards;
@@ -1032,6 +1032,15 @@ body.menu-open .nav {
 @media (max-width: 820px) {
 	.committees {
 		grid-template-columns: 1fr;
+	}
+}
+@media (min-width: 821px) {
+	.committees {
+		align-items: start;
+	}
+	.committee:first-child {
+		position: sticky;
+		top: calc(var(--nav-h) + 24px);
 	}
 }
 
