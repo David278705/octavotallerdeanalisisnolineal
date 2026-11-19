@@ -433,7 +433,7 @@ body.menu-open .nav {
 }
 .hero__bg img {
 	object-fit: cover;
-	object-position: 50% 62%;
+	object-position: 50% 40%;
 	filter: saturate(0.85) contrast(1.05);
 	transform: scale(1.06);
 	animation: heroZoom 18s var(--ease) forwards;
